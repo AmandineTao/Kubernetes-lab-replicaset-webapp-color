@@ -1,0 +1,15 @@
+1.Lien plateforme de test:
+https://katacoda.com/courses/kubernetes/playground
+start kubernetes
+
+2.Commandes deploiement replicaset webapp-color:
+    1  launch.sh
+    2  kubectl cluster-info
+    3  vi replicatset-webapp-color.yml
+    4  clear
+    5  kubectl create -f replicatset-webapp-color.yml
+	6 kubectl get replicaset
+   7  kubectl get pod
+   8  kubectl get pod --show-labels
+   9  kubectl describe replicaset
+   
